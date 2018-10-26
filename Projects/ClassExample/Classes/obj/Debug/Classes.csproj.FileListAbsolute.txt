@@ -1,0 +1,6 @@
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\bin\Debug\Classes.dll
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\bin\Debug\Classes.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\obj\Debug\Classes.dll
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\obj\Debug\Classes.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\Classes\obj\Debug\Classes.csprojAssemblyReference.cache

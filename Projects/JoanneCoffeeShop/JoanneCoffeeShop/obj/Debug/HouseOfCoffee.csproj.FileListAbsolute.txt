@@ -1,0 +1,10 @@
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\bin\Debug\JoanneCoffeeShop.exe.config
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\bin\Debug\JoanneCoffeeShop.exe
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\bin\Debug\JoanneCoffeeShop.pdb
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\obj\Debug\HouseOfCoffee.csprojAssemblyReference.cache
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\obj\Debug\HouseOfCoffee.csproj.CoreCompileInputs.cache
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\obj\Debug\JoanneCoffeeShop.exe
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\obj\Debug\JoanneCoffeeShop.pdb
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\bin\Debug\CoffeeShopLibrary.dll
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\bin\Debug\CoffeeShopLibrary.pdb
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\JoanneCoffeeShop\obj\Debug\HouseOfCoffee.csproj.CopyComplete

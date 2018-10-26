@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\obj\Debug\FlowerColor_HW 2C.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\obj\Debug\FlowerColor_HW 2C.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\bin\Debug\FlowerColor_HW 2C.exe.config
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\bin\Debug\FlowerColor_HW 2C.exe
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\bin\Debug\FlowerColor_HW 2C.pdb
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\obj\Debug\FlowerColor_HW 2C.exe
+C:\Users\Jackie\Source\Repos\FlowerColor_HW 2C\FlowerColor_HW 2C\obj\Debug\FlowerColor_HW 2C.pdb

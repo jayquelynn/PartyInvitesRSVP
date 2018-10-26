@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\bin\Debug\Errors and Exceptions of formulas.exe.config
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\bin\Debug\Errors and Exceptions of formulas.exe
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\bin\Debug\Errors and Exceptions of formulas.pdb
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\obj\Debug\Errors and Exceptions of formulas.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\obj\Debug\Errors and Exceptions of formulas.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\obj\Debug\Errors and Exceptions of formulas.exe
+C:\Users\Jackie\Source\Repos\Errors and Exceptions of formulas\Errors and Exceptions of formulas\obj\Debug\Errors and Exceptions of formulas.pdb

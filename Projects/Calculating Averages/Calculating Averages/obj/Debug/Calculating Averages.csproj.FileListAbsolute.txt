@@ -1,0 +1,7 @@
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\bin\Debug\Calculating Averages.exe.config
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\bin\Debug\Calculating Averages.exe
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\bin\Debug\Calculating Averages.pdb
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\obj\Debug\Calculating Averages.csprojAssemblyReference.cache
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\obj\Debug\Calculating Averages.csproj.CoreCompileInputs.cache
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\obj\Debug\Calculating Averages.exe
+c:\users\jackie\Source\Repos\Calculating Averages\Calculating Averages\obj\Debug\Calculating Averages.pdb

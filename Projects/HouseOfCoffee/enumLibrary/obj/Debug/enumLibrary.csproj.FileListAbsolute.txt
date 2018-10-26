@@ -1,0 +1,6 @@
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\bin\Debug\enumLibrary.dll
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\bin\Debug\enumLibrary.pdb
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\obj\Debug\enumLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\obj\Debug\enumLibrary.dll
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\obj\Debug\enumLibrary.pdb
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\enumLibrary\obj\Debug\enumLibrary.csprojAssemblyReference.cache

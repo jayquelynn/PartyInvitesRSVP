@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SpeckleWebsiteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Blogs">
+    <Key>
+      <PropertyRef Name="BlogID" />
+    </Key>
+    <Property Name="BlogID" Type="int" Nullable="false" />
+    <Property Name="BlogName" Type="varchar" MaxLength="50" />
+    <Property Name="BlogDetails" Type="varchar" MaxLength="140" />
+    <Property Name="UserID" Type="int" />
+  </EntityType>
+  <EntityType Name="BlogTopics">
+    <Key>
+      <PropertyRef Name="BlogID" />
+    </Key>
+    <Property Name="Art" Type="int" />
+    <Property Name="To Do List" Type="int" />
+    <Property Name="Recipes" Type="int" />
+    <Property Name="Makeup" Type="int" />
+    <Property Name="Hair Care" Type="int" />
+    <Property Name="Travel" Type="int" />
+    <Property Name="Men's Lifestyle" Type="int" />
+    <Property Name="Skin Care" Type="int" />
+    <Property Name="Healthy  Eating" Type="int" />
+    <Property Name="Sports" Type="int" />
+    <Property Name="History" Type="int" />
+    <Property Name="Lifestyle" Type="int" />
+    <Property Name="Fitness" Type="int" />
+    <Property Name="Finance" Type="int" />
+    <Property Name="Fashion" Type="int" />
+    <Property Name="Recipies" Type="int" />
+    <Property Name="Suicide Prevnetion" Type="int" />
+    <Property Name="BlogID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="ChatID" />
+    </Key>
+    <Property Name="ChatID" Type="int" Nullable="false" />
+    <Property Name="ContactID" Type="varchar" MaxLength="50" />
+    <Property Name="Message" Type="varchar" MaxLength="500" />
+    <Property Name="DateandTimeofMessage" Type="datetime2" Precision="7" />
+    <Property Name="ProfileID" Type="int" />
+  </EntityType>
+  <EntityType Name="Photos">
+    <Key>
+      <PropertyRef Name="PhotoID" />
+    </Key>
+    <Property Name="PhotoID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="PhotoTitle" Type="varchar" MaxLength="50" />
+    <Property Name="PhotoFileName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProfileDetails">
+    <Key>
+      <PropertyRef Name="ProfileID" />
+    </Key>
+    <Property Name="ProfileID" Type="int" Nullable="false" />
+    <Property Name="ProfileDetails" Type="varchar" MaxLength="50" />
+    <Property Name="PhotoID" Type="int" />
+  </EntityType>
+  <EntityType Name="ProfilePhotos">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="PhotoID" Type="int" />
+    <Property Name="ProfileID" Type="int" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="User Details">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" />
+    <Property Name="CityLocation" Type="varchar" MaxLength="100" />
+    <Property Name="UserPost" Type="nvarchar" MaxLength="240" />
+    <Property Name="ProfileID" Type="int" />
+    <Property Name="PhotoID" Type="image" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="Username" Type="varchar" MaxLength="50" />
+    <Property Name="Occupation" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Blogs_User Details">
+    <End Role="User Details" Type="Self.User Details" Multiplicity="0..1" />
+    <End Role="Blogs" Type="Self.Blogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User Details">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Blogs">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BlogTopics_Blogs">
+    <End Role="Blogs" Type="Self.Blogs" Multiplicity="0..1" />
+    <End Role="BlogTopics" Type="Self.BlogTopics" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Blogs">
+        <PropertyRef Name="BlogID" />
+      </Principal>
+      <Dependent Role="BlogTopics">
+        <PropertyRef Name="Art" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_ProfileDetails">
+    <End Role="ProfileDetails" Type="Self.ProfileDetails" Multiplicity="0..1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetails">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfileDetails_Photos">
+    <End Role="Photos" Type="Self.Photos" Multiplicity="0..1" />
+    <End Role="ProfileDetails" Type="Self.ProfileDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photos">
+        <PropertyRef Name="PhotoID" />
+      </Principal>
+      <Dependent Role="ProfileDetails">
+        <PropertyRef Name="PhotoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfilePhotos_Photos">
+    <End Role="Photos" Type="Self.Photos" Multiplicity="0..1" />
+    <End Role="ProfilePhotos" Type="Self.ProfilePhotos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photos">
+        <PropertyRef Name="PhotoID" />
+      </Principal>
+      <Dependent Role="ProfilePhotos">
+        <PropertyRef Name="PhotoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfilePhotos_ProfileDetails">
+    <End Role="ProfileDetails" Type="Self.ProfileDetails" Multiplicity="0..1" />
+    <End Role="ProfilePhotos" Type="Self.ProfilePhotos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetails">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="ProfilePhotos">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User Details_ProfileDetails">
+    <End Role="ProfileDetails" Type="Self.ProfileDetails" Multiplicity="0..1" />
+    <End Role="User Details" Type="Self.User Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetails">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="User Details">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SpeckleWebsiteModelStoreContainer">
+    <EntitySet Name="Blogs" EntityType="Self.Blogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BlogTopics" EntityType="Self.BlogTopics" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Photos" EntityType="Self.Photos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfileDetails" EntityType="Self.ProfileDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfilePhotos" EntityType="Self.ProfilePhotos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User Details" EntityType="Self.User Details" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Blogs_User Details" Association="Self.FK_Blogs_User Details">
+      <End Role="User Details" EntitySet="User Details" />
+      <End Role="Blogs" EntitySet="Blogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BlogTopics_Blogs" Association="Self.FK_BlogTopics_Blogs">
+      <End Role="Blogs" EntitySet="Blogs" />
+      <End Role="BlogTopics" EntitySet="BlogTopics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_ProfileDetails" Association="Self.FK_Messages_ProfileDetails">
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfileDetails_Photos" Association="Self.FK_ProfileDetails_Photos">
+      <End Role="Photos" EntitySet="Photos" />
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfilePhotos_Photos" Association="Self.FK_ProfilePhotos_Photos">
+      <End Role="Photos" EntitySet="Photos" />
+      <End Role="ProfilePhotos" EntitySet="ProfilePhotos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfilePhotos_ProfileDetails" Association="Self.FK_ProfilePhotos_ProfileDetails">
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+      <End Role="ProfilePhotos" EntitySet="ProfilePhotos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User Details_ProfileDetails" Association="Self.FK_User Details_ProfileDetails">
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+      <End Role="User Details" EntitySet="User Details" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

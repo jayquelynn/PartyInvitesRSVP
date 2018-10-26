@@ -1,0 +1,2 @@
+C:\Users\Jackie\Source\Repos\Mathematical Formulas\Mathematical Formulas4\Mathematical Formulas4\obj\Debug\Mathematical Formulas4.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Mathematical Formulas\Mathematical Formulas4\Mathematical Formulas4\obj\Debug\Mathematical Formulas4.csproj.CoreCompileInputs.cache

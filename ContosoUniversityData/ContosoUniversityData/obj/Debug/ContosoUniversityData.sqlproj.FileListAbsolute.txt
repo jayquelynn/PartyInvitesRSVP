@@ -1,0 +1,5 @@
+C:\Users\Jackie\Source\Repos\ContosoUniversityData\ContosoUniversityData\bin\Debug\ContosoUniversityData.dacpac
+C:\Users\Jackie\Source\Repos\ContosoUniversityData\ContosoUniversityData\bin\Debug\ContosoUniversityData.dll
+C:\Users\Jackie\Source\Repos\ContosoUniversityData\ContosoUniversityData\bin\Debug\ContosoUniversityData.pdb
+C:\Users\Jackie\Source\Repos\ContosoUniversityData\ContosoUniversityData\obj\Debug\ContosoUniversityData.dll
+C:\Users\Jackie\Source\Repos\ContosoUniversityData\ContosoUniversityData\obj\Debug\ContosoUniversityData.pdb

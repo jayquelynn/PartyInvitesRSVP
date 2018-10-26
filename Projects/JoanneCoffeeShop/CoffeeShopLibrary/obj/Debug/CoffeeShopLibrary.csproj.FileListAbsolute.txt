@@ -1,0 +1,6 @@
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\bin\Debug\CoffeeShopLibrary.dll
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\bin\Debug\CoffeeShopLibrary.pdb
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\obj\Debug\CoffeeShopLibrary.csprojAssemblyReference.cache
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\obj\Debug\CoffeeShopLibrary.csproj.CoreCompileInputs.cache
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\obj\Debug\CoffeeShopLibrary.dll
+c:\users\jackie\Source\Repos\JoanneCoffeeShop\CoffeeShopLibrary\obj\Debug\CoffeeShopLibrary.pdb

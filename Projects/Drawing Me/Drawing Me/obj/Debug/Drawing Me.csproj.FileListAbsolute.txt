@@ -1,0 +1,10 @@
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\bin\Debug\Drawing Me.exe.config
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\bin\Debug\Drawing Me.exe
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\bin\Debug\Drawing Me.pdb
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing Me.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing_Me.Form1.resources
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing_Me.Properties.Resources.resources
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing Me.csproj.GenerateResource.cache
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing Me.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing Me.exe
+C:\Users\Jackie\Source\Repos\Drawing Me\Drawing Me\obj\Debug\Drawing Me.pdb

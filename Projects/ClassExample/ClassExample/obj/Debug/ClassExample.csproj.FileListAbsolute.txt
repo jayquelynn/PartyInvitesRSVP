@@ -1,0 +1,10 @@
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\bin\Debug\ClassExample.exe.config
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\bin\Debug\ClassExample.exe
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\bin\Debug\ClassExample.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\obj\Debug\ClassExample.csprojAssemblyReference.cache
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\obj\Debug\ClassExample.csproj.CoreCompileInputs.cache
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\obj\Debug\ClassExample.exe
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\obj\Debug\ClassExample.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\bin\Debug\Classes.dll
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\bin\Debug\Classes.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\ClassExample\ClassExample\obj\Debug\ClassExample.csproj.CopyComplete

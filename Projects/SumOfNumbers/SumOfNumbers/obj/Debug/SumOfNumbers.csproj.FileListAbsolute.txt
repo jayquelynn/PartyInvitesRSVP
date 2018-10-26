@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\obj\Debug\SumOfNumbers.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\obj\Debug\SumOfNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\bin\Debug\SumOfNumbers.exe.config
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\bin\Debug\SumOfNumbers.exe
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\bin\Debug\SumOfNumbers.pdb
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\obj\Debug\SumOfNumbers.exe
+C:\Users\Jackie\Source\Repos\SumOfNumbers\SumOfNumbers\obj\Debug\SumOfNumbers.pdb

@@ -1,0 +1,10 @@
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\obj\Debug\CarConsole.csprojAssemblyReference.cache
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\obj\Debug\CarConsole.csproj.CoreCompileInputs.cache
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\bin\Debug\CarConsole.exe.config
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\bin\Debug\CarConsole.exe
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\bin\Debug\CarConsole.pdb
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\bin\Debug\Car(ClassLibrary).dll
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\bin\Debug\Car(ClassLibrary).pdb
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\obj\Debug\CarConsole.csproj.CopyComplete
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\obj\Debug\CarConsole.exe
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\CarConsole\obj\Debug\CarConsole.pdb

@@ -1,0 +1,14 @@
+C:\Users\Jackie\Source\Repos\Array\Array\bin\Debug\Array.exe.config
+C:\Users\Jackie\Source\Repos\Array\Array\bin\Debug\Array.exe
+C:\Users\Jackie\Source\Repos\Array\Array\bin\Debug\Array.pdb
+C:\Users\Jackie\Source\Repos\Array\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Array\Array\obj\Debug\Array.exe
+C:\Users\Jackie\Source\Repos\Array\Array\obj\Debug\Array.pdb
+C:\Users\Jackie\Source\Repos\Array\Array\obj\Debug\Array.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\bin\Debug\Array.exe.config
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\bin\Debug\Array.exe
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\bin\Debug\Array.pdb
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\obj\Debug\Array.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\obj\Debug\Array.exe
+C:\Users\Jackie\Source\Repos\Projects\Array\Array\obj\Debug\Array.pdb

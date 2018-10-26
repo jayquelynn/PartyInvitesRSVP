@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\bin\Debug\CompareTwoNumbers.exe.config
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\bin\Debug\CompareTwoNumbers.exe
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\bin\Debug\CompareTwoNumbers.pdb
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\obj\Debug\CompareTwoNumbers.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\obj\Debug\CompareTwoNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\obj\Debug\CompareTwoNumbers.exe
+C:\Users\Jackie\Source\Repos\CompareTwoNumbers\CompareTwoNumbers\obj\Debug\CompareTwoNumbers.pdb

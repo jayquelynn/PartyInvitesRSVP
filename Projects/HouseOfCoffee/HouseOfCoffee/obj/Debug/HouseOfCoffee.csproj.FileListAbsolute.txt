@@ -1,0 +1,10 @@
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\bin\Debug\HouseOfCoffee.exe.config
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\bin\Debug\HouseOfCoffee.exe
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\bin\Debug\HouseOfCoffee.pdb
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\obj\Debug\HouseOfCoffee.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\obj\Debug\HouseOfCoffee.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\obj\Debug\HouseOfCoffee.exe
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\obj\Debug\HouseOfCoffee.pdb
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\bin\Debug\enumLibrary.dll
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\bin\Debug\enumLibrary.pdb
+C:\Users\Jackie\Source\Repos\HouseOfCoffee\HouseOfCoffee\obj\Debug\HouseOfCoffee.csproj.CopyComplete

@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\bin\Debug\Mathematical Formulas2.exe.config
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\bin\Debug\Mathematical Formulas2.exe
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\bin\Debug\Mathematical Formulas2.pdb
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\obj\Debug\Mathematical Formulas2.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\obj\Debug\Mathematical Formulas2.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\obj\Debug\Mathematical Formulas2.exe
+C:\Users\Jackie\Source\Repos\Mathematical Formulas2\Mathematical Formulas2\obj\Debug\Mathematical Formulas2.pdb

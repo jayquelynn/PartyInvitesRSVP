@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\bin\Debug\TestHello.exe.config
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\bin\Debug\TestHello.exe
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\bin\Debug\TestHello.pdb
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\obj\Debug\TestHello.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\obj\Debug\TestHello.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\obj\Debug\TestHello.exe
+C:\Users\Jackie\Source\Repos\TestHello\TestHello\obj\Debug\TestHello.pdb

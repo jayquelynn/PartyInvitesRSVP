@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\bin\Debug\CreateFarm.exe.config
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\bin\Debug\CreateFarm.exe
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\bin\Debug\CreateFarm.pdb
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\obj\Debug\CreateFarm.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\obj\Debug\CreateFarm.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\obj\Debug\CreateFarm.exe
+C:\Users\Jackie\Source\Repos\CreateFarm\CreateFarm\obj\Debug\CreateFarm.pdb

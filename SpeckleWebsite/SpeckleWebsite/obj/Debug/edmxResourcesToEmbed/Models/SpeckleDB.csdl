@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SpeckleWebsiteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="BlogID" />
+    </Key>
+    <Property Name="BlogID" Type="Int32" Nullable="false" />
+    <Property Name="BlogName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BlogDetails" Type="String" MaxLength="140" FixedLength="false" Unicode="false" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="User_Details" Relationship="Self.FK_Blogs_User_Details" FromRole="Blogs" ToRole="User_Details" />
+    <NavigationProperty Name="BlogTopics" Relationship="SpeckleWebsiteModel.FK_BlogTopics_Blogs" FromRole="Blog" ToRole="BlogTopic" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="ChatID" />
+    </Key>
+    <Property Name="ChatID" Type="Int32" Nullable="false" />
+    <Property Name="ContactID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Message1" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="DateandTimeofMessage" Type="DateTime" Precision="7" />
+    <Property Name="ProfileID" Type="Int32" />
+    <NavigationProperty Name="ProfileDetail" Relationship="Self.FK_Messages_ProfileDetails" FromRole="Messages" ToRole="ProfileDetails" />
+  </EntityType>
+  <EntityType Name="Photo">
+    <Key>
+      <PropertyRef Name="PhotoID" />
+    </Key>
+    <Property Name="PhotoID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="PhotoTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhotoFileName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProfileDetails" Relationship="Self.FK_ProfileDetails_Photos" FromRole="Photos" ToRole="ProfileDetails" />
+    <NavigationProperty Name="ProfilePhotos" Relationship="SpeckleWebsiteModel.FK_ProfilePhotos_Photos" FromRole="Photo" ToRole="ProfilePhoto" />
+  </EntityType>
+  <EntityType Name="ProfileDetail">
+    <Key>
+      <PropertyRef Name="ProfileID" />
+    </Key>
+    <Property Name="ProfileID" Type="Int32" Nullable="false" />
+    <Property Name="ProfileDetails" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhotoID" Type="Int32" />
+    <NavigationProperty Name="Messages" Relationship="Self.FK_Messages_ProfileDetails" FromRole="ProfileDetails" ToRole="Messages" />
+    <NavigationProperty Name="Photo" Relationship="Self.FK_ProfileDetails_Photos" FromRole="ProfileDetails" ToRole="Photos" />
+    <NavigationProperty Name="User_Details" Relationship="Self.FK_User_Details_ProfileDetails" FromRole="ProfileDetails" ToRole="User_Details" />
+    <NavigationProperty Name="ProfilePhotos" Relationship="SpeckleWebsiteModel.FK_ProfilePhotos_ProfileDetails" FromRole="ProfileDetail" ToRole="ProfilePhoto" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User_Detail">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CityLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserPost" Type="String" MaxLength="240" FixedLength="false" Unicode="true" />
+    <Property Name="ProfileID" Type="Int32" />
+    <Property Name="PhotoID" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Occupation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Blogs" Relationship="Self.FK_Blogs_User_Details" FromRole="User_Details" ToRole="Blogs" />
+    <NavigationProperty Name="ProfileDetail" Relationship="Self.FK_User_Details_ProfileDetails" FromRole="User_Details" ToRole="ProfileDetails" />
+  </EntityType>
+  <Association Name="FK_Blogs_User_Details">
+    <End Role="User_Details" Type="Self.User_Detail" Multiplicity="0..1" />
+    <End Role="Blogs" Type="Self.Blog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User_Details">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Blogs">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_ProfileDetails">
+    <End Role="ProfileDetails" Type="Self.ProfileDetail" Multiplicity="0..1" />
+    <End Role="Messages" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetails">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfileDetails_Photos">
+    <End Role="Photos" Type="Self.Photo" Multiplicity="0..1" />
+    <End Role="ProfileDetails" Type="Self.ProfileDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photos">
+        <PropertyRef Name="PhotoID" />
+      </Principal>
+      <Dependent Role="ProfileDetails">
+        <PropertyRef Name="PhotoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Details_ProfileDetails">
+    <End Role="ProfileDetails" Type="Self.ProfileDetail" Multiplicity="0..1" />
+    <End Role="User_Details" Type="Self.User_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetails">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="User_Details">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SpeckleWebsiteEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Blogs" EntityType="Self.Blog" />
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Photos" EntityType="Self.Photo" />
+    <EntitySet Name="ProfileDetails" EntityType="Self.ProfileDetail" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="User_Details" EntityType="Self.User_Detail" />
+    <AssociationSet Name="FK_Blogs_User_Details" Association="Self.FK_Blogs_User_Details">
+      <End Role="User_Details" EntitySet="User_Details" />
+      <End Role="Blogs" EntitySet="Blogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_ProfileDetails" Association="Self.FK_Messages_ProfileDetails">
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfileDetails_Photos" Association="Self.FK_ProfileDetails_Photos">
+      <End Role="Photos" EntitySet="Photos" />
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Details_ProfileDetails" Association="Self.FK_User_Details_ProfileDetails">
+      <End Role="ProfileDetails" EntitySet="ProfileDetails" />
+      <End Role="User_Details" EntitySet="User_Details" />
+    </AssociationSet>
+    <EntitySet Name="ProfilePhotos" EntityType="SpeckleWebsiteModel.ProfilePhoto" />
+    <AssociationSet Name="FK_ProfilePhotos_Photos" Association="SpeckleWebsiteModel.FK_ProfilePhotos_Photos">
+      <End Role="Photo" EntitySet="Photos" />
+      <End Role="ProfilePhoto" EntitySet="ProfilePhotos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfilePhotos_ProfileDetails" Association="SpeckleWebsiteModel.FK_ProfilePhotos_ProfileDetails">
+      <End Role="ProfileDetail" EntitySet="ProfileDetails" />
+      <End Role="ProfilePhoto" EntitySet="ProfilePhotos" />
+    </AssociationSet>
+    <EntitySet Name="BlogTopics" EntityType="SpeckleWebsiteModel.BlogTopic" />
+    <AssociationSet Name="FK_BlogTopics_Blogs" Association="SpeckleWebsiteModel.FK_BlogTopics_Blogs">
+      <End Role="Blog" EntitySet="Blogs" />
+      <End Role="BlogTopic" EntitySet="BlogTopics" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ProfilePhoto">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="PhotoID" Type="Int32" />
+    <Property Name="ProfileID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Photo" Relationship="SpeckleWebsiteModel.FK_ProfilePhotos_Photos" FromRole="ProfilePhoto" ToRole="Photo" />
+    <NavigationProperty Name="ProfileDetail" Relationship="SpeckleWebsiteModel.FK_ProfilePhotos_ProfileDetails" FromRole="ProfilePhoto" ToRole="ProfileDetail" />
+  </EntityType>
+  <Association Name="FK_ProfilePhotos_Photos">
+    <End Type="SpeckleWebsiteModel.Photo" Role="Photo" Multiplicity="0..1" />
+    <End Type="SpeckleWebsiteModel.ProfilePhoto" Role="ProfilePhoto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photo">
+        <PropertyRef Name="PhotoID" />
+      </Principal>
+      <Dependent Role="ProfilePhoto">
+        <PropertyRef Name="PhotoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfilePhotos_ProfileDetails">
+    <End Type="SpeckleWebsiteModel.ProfileDetail" Role="ProfileDetail" Multiplicity="0..1" />
+    <End Type="SpeckleWebsiteModel.ProfilePhoto" Role="ProfilePhoto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfileDetail">
+        <PropertyRef Name="ProfileID" />
+      </Principal>
+      <Dependent Role="ProfilePhoto">
+        <PropertyRef Name="ProfileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="BlogTopic">
+    <Key>
+      <PropertyRef Name="BlogID" />
+    </Key>
+    <Property Name="Art" Type="Int32" />
+    <Property Name="To_Do_List" Type="Int32" />
+    <Property Name="Recipes" Type="Int32" />
+    <Property Name="Makeup" Type="Int32" />
+    <Property Name="Hair_Care" Type="Int32" />
+    <Property Name="Travel" Type="Int32" />
+    <Property Name="Men_s_Lifestyle" Type="Int32" />
+    <Property Name="Skin_Care" Type="Int32" />
+    <Property Name="Healthy__Eating" Type="Int32" />
+    <Property Name="Sports" Type="Int32" />
+    <Property Name="History" Type="Int32" />
+    <Property Name="Lifestyle" Type="Int32" />
+    <Property Name="Fitness" Type="Int32" />
+    <Property Name="Finance" Type="Int32" />
+    <Property Name="Fashion" Type="Int32" />
+    <Property Name="Recipies" Type="Int32" />
+    <Property Name="Suicide_Prevnetion" Type="Int32" />
+    <Property Name="BlogID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Blog" Relationship="SpeckleWebsiteModel.FK_BlogTopics_Blogs" FromRole="BlogTopic" ToRole="Blog" />
+  </EntityType>
+  <Association Name="FK_BlogTopics_Blogs">
+    <End Type="SpeckleWebsiteModel.Blog" Role="Blog" Multiplicity="0..1" />
+    <End Type="SpeckleWebsiteModel.BlogTopic" Role="BlogTopic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Blog">
+        <PropertyRef Name="BlogID" />
+      </Principal>
+      <Dependent Role="BlogTopic">
+        <PropertyRef Name="Art" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

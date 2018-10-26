@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\bin\Debug\TotalTicketSales.exe.config
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\bin\Debug\TotalTicketSales.exe
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\bin\Debug\TotalTicketSales.pdb
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\obj\Debug\TotalTicketSales.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\obj\Debug\TotalTicketSales.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\obj\Debug\TotalTicketSales.exe
+C:\Users\Jackie\Source\Repos\TotalTicketSales\TotalTicketSales\obj\Debug\TotalTicketSales.pdb

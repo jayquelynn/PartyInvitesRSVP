@@ -1,0 +1,11 @@
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\bin\Debug\LoginWindow.exe.config
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\bin\Debug\LoginWindow.exe
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\bin\Debug\LoginWindow.pdb
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.Form1.resources
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.Main.resources
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.Properties.Resources.resources
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.csproj.GenerateResource.cache
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.exe
+C:\Users\Jackie\Source\Repos\LoginWindow\LoginWindow\obj\Debug\LoginWindow.pdb

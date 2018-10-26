@@ -1,0 +1,10 @@
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\bin\Debug\MessengerApp.exe.config
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\bin\Debug\MessengerApp.exe
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\bin\Debug\MessengerApp.pdb
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.Form1.resources
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.Properties.Resources.resources
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.csproj.GenerateResource.cache
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.exe
+C:\Users\Jackie\Source\Repos\MessengerApp\MessengerApp\obj\Debug\MessengerApp.pdb

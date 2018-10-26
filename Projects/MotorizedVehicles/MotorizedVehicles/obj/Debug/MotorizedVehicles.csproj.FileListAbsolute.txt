@@ -1,0 +1,12 @@
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\bin\Debug\MotorizedVehicles.dll
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\bin\Debug\MotorizedVehicles.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.csproj.CoreCompileInputs.cache
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.dll
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.pdb
+C:\Users\erau\Documents\Visual Studio 2017\Projects\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\bin\Debug\MotorizedVehicles.dll
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\bin\Debug\MotorizedVehicles.pdb
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.dll
+C:\Users\Jackie\Source\Repos\MotorizedVehicles\MotorizedVehicles\obj\Debug\MotorizedVehicles.pdb

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="24b86dc353624ff4a048d77ea6db4385" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.Blog" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.Message" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.Photo" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.ProfileDetail" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.User_Detail" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_Blogs_User_Details" ManuallyRouted="false" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_Messages_ProfileDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_ProfileDetails_Photos" ManuallyRouted="false" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_User_Details_ProfileDetails" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.ProfilePhoto" Width="1.5" PointX="8.25" PointY="1.625" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_ProfilePhotos_Photos" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_ProfilePhotos_ProfileDetails" />
+        <EntityTypeShape EntityType="SpeckleWebsiteModel.BlogTopic" Width="1.5" PointX="9.75" PointY="5.375" />
+        <AssociationConnector Association="SpeckleWebsiteModel.FK_BlogTopics_Blogs" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

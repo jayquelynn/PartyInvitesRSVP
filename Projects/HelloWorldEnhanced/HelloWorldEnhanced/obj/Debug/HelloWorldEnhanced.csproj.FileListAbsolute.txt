@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\obj\Debug\HelloWorldEnhanced.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\obj\Debug\HelloWorldEnhanced.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\bin\Debug\HelloWorldEnhanced.exe.config
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\bin\Debug\HelloWorldEnhanced.exe
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\bin\Debug\HelloWorldEnhanced.pdb
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\obj\Debug\HelloWorldEnhanced.exe
+C:\Users\Jackie\Source\Repos\HelloWorldEnhanced\HelloWorldEnhanced\obj\Debug\HelloWorldEnhanced.pdb

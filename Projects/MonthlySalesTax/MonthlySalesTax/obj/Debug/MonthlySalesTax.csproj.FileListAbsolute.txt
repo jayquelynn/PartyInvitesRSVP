@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\bin\Debug\MonthlySalesTax.exe.config
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\bin\Debug\MonthlySalesTax.exe
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\bin\Debug\MonthlySalesTax.pdb
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\obj\Debug\MonthlySalesTax.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\obj\Debug\MonthlySalesTax.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\obj\Debug\MonthlySalesTax.exe
+C:\Users\Jackie\Source\Repos\MonthlySalesTax\MonthlySalesTax\obj\Debug\MonthlySalesTax.pdb

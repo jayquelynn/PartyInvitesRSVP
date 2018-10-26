@@ -1,0 +1,6 @@
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\obj\Debug\Car(ClassLibrary).csprojAssemblyReference.cache
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\obj\Debug\Car(ClassLibrary).csproj.CoreCompileInputs.cache
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\bin\Debug\Car(ClassLibrary).dll
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\bin\Debug\Car(ClassLibrary).pdb
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\obj\Debug\Car(ClassLibrary).dll
+c:\users\jackie\Source\Repos\Car(ClassLibrary)\Car(ClassLibrary)\obj\Debug\Car(ClassLibrary).pdb

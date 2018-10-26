@@ -1,0 +1,7 @@
+C:\Users\Jackie\Source\Repos\Profit\Profit\obj\Debug\Profit.csprojAssemblyReference.cache
+C:\Users\Jackie\Source\Repos\Profit\Profit\obj\Debug\Profit.csproj.CoreCompileInputs.cache
+C:\Users\Jackie\Source\Repos\Profit\Profit\bin\Debug\Profit.exe.config
+C:\Users\Jackie\Source\Repos\Profit\Profit\bin\Debug\Profit.exe
+C:\Users\Jackie\Source\Repos\Profit\Profit\bin\Debug\Profit.pdb
+C:\Users\Jackie\Source\Repos\Profit\Profit\obj\Debug\Profit.exe
+C:\Users\Jackie\Source\Repos\Profit\Profit\obj\Debug\Profit.pdb
